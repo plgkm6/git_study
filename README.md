@@ -1,4 +1,4 @@
-# GIT Common Command
+# GIT Common Commands
 
 + Set user and email
   + `git config --global user.name="<name>"`
