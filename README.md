@@ -60,4 +60,27 @@
 + Delete remote alias
   + `git remote rm <alias>`
 
++ Merge branch from remote (to local)
+  + `git pull <alias> <remote branch name>:<local branch name>`
+  + `git pull origin <remote branch name>:<local branch name>`
+  + `git pull <alias> <branch name>`
+  + `git pull origin <branch name>`
+
++ Safety merge branch from remote (to local), example1
+  + `git fetch origin <remote branch name>`
+  + `git log -p <local branch name>..origin/<remote branch name>`
+  + `git merge origin/<remote branch name>`
+
++ Safety merge branch from remote (to local), example2
+  + `git fetch origin <remote branch name>:<to local temp branch name>`
+  + `git deff <local temp branch name>`
+  + `git merge <local temp branch name>`
+
 + To be continued...
+
+
+>Hello  
+> Welcome to contact me to add more Git commands.  
+> My Email: `plgkm6@hotmail.com` or `plgkm6@gmail.com`,  
+> you can also contact me by `463990503@qq.com`.  
+> Apparently, my QQ number is `463990503`.
